@@ -8,12 +8,12 @@ import bshmenuImg from "../assets/images/bshmenu.png";
 
 
 export const projects = [
-    {
-        name:"AgilityCoach",
-        github:"https://github.com/apoorvyadav1111/agilitycoach",
-        tags:["Flask","Python","JavaScript","OpenCV","PostgreSQL"],
-        url:"https://github.com/apoorvyadav1111/agilitycoach",
-    },
+    // {
+    //     name:"AgilityCoach",
+    //     github:"https://github.com/apoorvyadav1111/agilitycoach",
+    //     tags:["Flask","Python","JavaScript","OpenCV","PostgreSQL"],
+    //     url:"https://github.com/apoorvyadav1111/agilitycoach",
+    // },
     {
         name: "Digital Menu",
         description:"A web app that helps restaurants create and manage digital menus.",
