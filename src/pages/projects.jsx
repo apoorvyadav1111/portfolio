@@ -61,11 +61,9 @@ const ProjectStyles = styled(motion.div)`
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
     background: rgba(255,255,255,0.1);
     img{
-      width: 100%;
-      auto-fit: contain;
-      resize: both;
+      object-fit: cover;
       border-radius: 1rem 1rem 0 0;
-      height: auto;
+      height: 70%
     }
     &-content{
       width: 100%;

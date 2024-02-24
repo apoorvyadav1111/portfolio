@@ -7,9 +7,10 @@ import { educationDetail } from "../data/educatonDetails";
 const EducationStyles = styled.div`
     margin-top: 16rem; 
     margin-bottom: 16rem;
+    padding-bottom: 5rem;
     @media (max-width: 500px){
         margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 8rem;
     }
 
     h2 {

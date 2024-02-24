@@ -11,9 +11,11 @@ const AboutStyles = styled(motion.div)`
     @media (max-width: 500px) {
         width: 100vw;
         height: 100vh;
+        margin-bottom: 50px;
     }
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
     `;
 const About = () => {
     return (

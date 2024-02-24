@@ -9,10 +9,10 @@ import bshmenuImg from "../assets/images/bshmenu.png";
 
 export const projects = [
     {
-        name:"Athleisure",
-        github:"https://github.com/apoorvyadav1111/athleisure",
+        name:"AgilityCoach",
+        github:"https://github.com/apoorvyadav1111/agilitycoach",
         tags:["Flask","Python","JavaScript","OpenCV","PostgreSQL"],
-        url:"https://github.com/apoorvyadav1111/athleisure",
+        url:"https://github.com/apoorvyadav1111/agilitycoach",
     },
     {
         name: "Digital Menu",

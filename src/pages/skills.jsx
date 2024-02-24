@@ -6,24 +6,25 @@ import { styled } from "styled-components";
 import { TopNav } from "../components/TopNav";
 import { motion } from "framer-motion";
 
-const AboutStyles = styled(motion.div)`
+const SkillsStyles = styled(motion.div)`
     @media (max-width: 500px) {
         width: 100vw;
         height: 100vh;
     }
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
     `;
 const SkillsPage = () => {
     return (
         <>
         <TransitionPage />
         <ParticlesContainer/>
-        <AboutStyles>
+        <SkillsStyles>
             <SideNav />
             <TopNav />
             <Skills />
-        </AboutStyles>
+        </SkillsStyles>
         </>
     )
 }
