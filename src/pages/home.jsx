@@ -78,17 +78,26 @@ const HomepageStyles = styled(motion.div)`
         &-bottom {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            @media (min-width: 500px) {
+                justify-content: space-between;
+            }
             flex-grow: 1;
             max-height: 50vh;
             position: relative;
             top: 1%;
+            @media (max-width: 500px) {
+                max-height: 40vh;
+                align-items: left;
+                flex-grow: 0;
+            }
             .side-nav{
                 overflow: hidden;
                 text-align: left;
-                justify-content: space-between;
                 .side-nav__item{
                     font-size: calc(var(--VW) * 4);
+                    @media (max-width: 500px) {
+                        font-size: calc(var(--VW) * 2);
+                    }
                     a{
                         display: inline-block;
                         font-size: 20;
@@ -108,12 +117,17 @@ const HomepageStyles = styled(motion.div)`
                 @media (max-width: 500px) {
                     display: flex;
                     justify-content: space-between;
+                    flex-direction: row;
                     width: 100%;
                 }
                 a{
                     margin: 0 1vw;
                     display: inline-block;
                     font-size: calc(var(--VW) * 4);
+                    @media (max-width: 500px) {
+                        margin: 0;
+                        font-size: calc(var(--VH) * 3);
+                    }
                     svg{
                         pointer-events: none;
                         font-size: calc(var(--VW) * 10);

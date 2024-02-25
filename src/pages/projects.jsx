@@ -15,7 +15,7 @@ const ProjectStyles = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 4rem;}
   a:hover{
     color: var(--neon-purple);
   }
@@ -24,7 +24,7 @@ const ProjectStyles = styled(motion.div)`
     padding-top: 2rem;
     padding-bottom: 4rem;
     @media (max-width: 500px){
-      font-size: calc(var(--VH)*6);
+      font-size: calc(var(--VW)*6);
       padding-top: 2rem;
       padding-left: 1rem;
     }
@@ -32,11 +32,12 @@ const ProjectStyles = styled(motion.div)`
   .grid{
     padding: 8rem;
     display: grid;
-    @media (max-width: 500px){
-      padding: 2rem;
-    }
     grid-template-columns: repeat(12, minmax(0, 1fr));
-    gap: 6rem; 
+    gap: 4rem;
+    @media (max-width: 500px){
+      padding: 1rem;
+      gap: 1rem;
+    }
     .second{
       grid-column: span 6 / span 12;
       @media (max-width: 500px){
@@ -47,11 +48,10 @@ const ProjectStyles = styled(motion.div)`
   
 
   .project-card{
-    width: 100%;
-    height: calc(var(--VH)*55);
+    height: calc(var(--VH)*60);
     @media (max-width: 500px){
+      width: calc(var(--VW)*90);
       height: auto;
-      width: 95%;
     }
     display: flex;
     flex-direction: column;
@@ -60,10 +60,10 @@ const ProjectStyles = styled(motion.div)`
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
     background: rgba(255,255,255,0.1);
-    img{
-      object-fit: cover;
-      border-radius: 1rem 1rem 0 0;
-      height: 70%
+    .img_size{
+      border-radius: 1rem;
+      width: 100%;
+      height: auto;
     }
     &-content{
       width: 100%;
@@ -114,11 +114,10 @@ const ProjectStyles = styled(motion.div)`
     }
 `
 
-
 const ProjectCard = ({project}) => {
   return (
     <article className='project-card'>
-      <img src={project.image} alt={project.name} /> 
+      <img className="img_size" src={project.image} alt={project.name} />
       <div className='project-card-content'>
           <h1>{project.name}</h1>
         <div className='tags'>
