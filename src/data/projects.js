@@ -25,7 +25,7 @@ export const projects = [
         tags:["next.js","react","javascript","css","html"],
         type:"Frontend Web App",
         github:"https://github.com/apoorvyadav1111/desk-clock",
-        url:"https://desk-clock.vercel.app/"
+        url:"https://deskclock.vercel.app/"
     },
     {
         name: "Digital Menu",
