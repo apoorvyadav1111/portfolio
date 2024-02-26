@@ -6,6 +6,7 @@ import { Education } from "../components/Education";
 import { styled } from "styled-components";
 import { TopNav } from "../components/TopNav";
 import { motion } from "framer-motion";
+import { VolunteerExperience } from "../components/Volunteer";
 
 const AboutStyles = styled(motion.div)`
     @media (max-width: 500px) {
@@ -15,7 +16,7 @@ const AboutStyles = styled(motion.div)`
     }
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
     `;
 const About = () => {
     return (
@@ -27,6 +28,7 @@ const About = () => {
             <TopNav />
             <Experience />
             <Education  />
+            <VolunteerExperience />
         </AboutStyles>
         </>
     )

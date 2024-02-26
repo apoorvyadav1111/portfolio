@@ -2,13 +2,12 @@ import { styled } from "styled-components";
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import { LiIcon } from "./LiIcon";
-import { workEx } from "../data/workEx";
+import { volunteerEx } from "../data/volunteerEx";
 
-const ExperienceStyles = styled.div`
+const VExperienceStyles = styled.div`
     margin-top: 4rem; 
     margin-bottom: 16rem;
-
-
+    padding-bottom: 5rem;
     @media (max-width: 500px){
         margin-bottom: 4rem;
     }
@@ -136,7 +135,7 @@ const Details = (
             </motion.div>
         </li>
 }
-const Experience = () => {
+const VolunteerExperience = () => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll(
         {
@@ -146,20 +145,20 @@ const Experience = () => {
     );
     return (
     <>
-        <ExperienceStyles>
-            <h2>Experience</h2>
+        <VExperienceStyles>
+            <h2>Volunteer</h2>
             <div ref={ref} className="experience">
                 <motion.div 
                     style={{scaleY: scrollYProgress}}
                     className="experience_line" />
                 <ul>
-                    {workEx.map((work) => <Details {...work} />)}
+                    {volunteerEx.map((work) => <Details {...work} />)}
                 </ul>
             </div>
 
-        </ExperienceStyles>
+        </VExperienceStyles>
     </>
     )
 }
 
-export { Experience };
+export { VolunteerExperience };

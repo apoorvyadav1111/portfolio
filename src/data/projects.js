@@ -5,15 +5,28 @@ import mannImg from "../assets/images/mann.png";
 import buQuizImg from "../assets/images/bu-quiz.jpeg";
 import reactionTimerImg from "../assets/images/reaction-timer.png";
 import bshmenuImg from "../assets/images/bshmenu.png";
+import desktopClockImg from "../assets/images/desk-clock.png";
+import agilityCoachImg from "../assets/images/agilitycoach.jpg";
 
 
 export const projects = [
-    // {
-    //     name:"AgilityCoach",
-    //     github:"https://github.com/apoorvyadav1111/agilitycoach",
-    //     tags:["Flask","Python","JavaScript","OpenCV","PostgreSQL"],
-    //     url:"https://github.com/apoorvyadav1111/agilitycoach",
-    // },
+    {
+        name:"AgilityCoach",
+        description:"A web app that helps athletes improve their agility and reaction time.",
+        image: agilityCoachImg,
+        github:"https://github.com/apoorvyadav1111/agilitycoach",
+        tags:["Flask","Python","JavaScript","OpenCV","PostgreSQL"],
+        url:"https://github.com/apoorvyadav1111/agilitycoach",
+    },
+    {
+        name:"Desktop Clock",
+        description:"A minimalist desktop clock app that displays time and date.",
+        image: desktopClockImg,
+        tags:["next.js","react","javascript","css","html"],
+        type:"Frontend Web App",
+        github:"https://github.com/apoorvyadav1111/desk-clock",
+        url:"https://desk-clock.vercel.app/"
+    },
     {
         name: "Digital Menu",
         description:"A web app that helps restaurants create and manage digital menus.",
@@ -47,8 +60,8 @@ export const projects = [
         image: portfolioImg,
         tags: ["React", "TypeScript", "Styled Components", "Framer Motion"],
         type:"Frontend Web App",
-        github: "",
-        url:""
+        github: "https://github.com/apoorvyadav1111/portfolio3",
+        url:"https://apoorvyadav.vercel.app/"
     },
     {
         name: "Mann",
