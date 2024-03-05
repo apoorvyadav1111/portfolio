@@ -7,9 +7,21 @@ import reactionTimerImg from "../assets/images/reaction-timer.png";
 import bshmenuImg from "../assets/images/bshmenu.png";
 import desktopClockImg from "../assets/images/desk-clock.png";
 import agilityCoachImg from "../assets/images/agilitycoach.jpg";
-
+import dailyQuotesImg from "../assets/images/daily-quotes.png";
+import awsNoteImg from "../assets/images/aws-notes.png";
+// import courseGradingImg from "../assets/images/course-grading.png";
+import todoImg from "../assets/images/todo.png";
 
 export const projects = [
+    {
+        name:"Daily Qoutes",
+        description:"A web app that provides daily quotes to the user in presentation mode or wallpaper mode.",
+        image: dailyQuotesImg,
+        tags:["React","TypeScript","Next.js","tailwind","framer-motion"],
+        type:"Frontend Web App",
+        github:"https://github.com/apoorvyadav1111/daily-quotes",
+        url:"https://lifequotesforyou.vercel.app/"
+    },
     {
         name:"AgilityCoach",
         description:"A web app that helps athletes improve their agility and reaction time.",
@@ -37,6 +49,15 @@ export const projects = [
         url:"https://brijwasisweethouse.github.io/bsh-menu/#/"
     },
     {
+        name: "AWS Notes for CCP",
+        description: "A simple website containing well structed notes for AWS Certified Cloud Practitioner exam.",
+        image: awsNoteImg,
+        tags: ["Readme", "Markdown", "Github Pages"],
+        type:"Static Website",
+        github: "https://github.com/apoorvyadav1111/aws-ccp-udemy-notes",
+        url:"https://apoorvyadav1111.github.io/aws-ccp-udemy-notes/"
+    },
+    {
         name: "Project Management System: Karya",
         description: "A web app that helps teams manage their projects and tasks.",
         image: karyaImg,
@@ -44,6 +65,15 @@ export const projects = [
         type:"Full Stack Web App",
         github: "https://github.com/apoorvyadav1111/karya-client",
         url:"https://github.com/apoorvyadav1111/karya-client",
+    },
+    {
+        name: "Todo - iOS App",
+        description:"A simple todo app for iOS built using Swift and Firebase.",
+        image: todoImg,
+        tags: ["Swift", "Firebase"],
+        type:"iOS App",
+        github: "https://github.com/apoorvyadav1111/todoapp",
+        url:"https://github.com/apoorvyadav1111/todoapp"
     },
     {
         name: "Job Hunt Sidekick",
@@ -90,6 +120,16 @@ export const projects = [
         github: "https://github.com/apoorvyadav1111/reaction-timer-vue",
         url: "https://github.com/apoorvyadav1111/reaction-timer-vue"
     }
+    // ,
+    // {
+    //     name:"Course Grading System",
+    //     description:"A comprehensive web app that helps teachers grade students with complex logisitcs",
+    //     image: courseGradingImg,
+    //     tags: ["React", "Javascript", "Node.js", "Express", "MongoDB"],
+    //     type:"Full Stack Web App",
+    //     github: "https://github.com/apoorvyadav1111/course-grading-system",
+    //     url: "https://github.com/apoorvyadav1111/course-grading-system"
+    // }
 ];
 
 export default projects;
