@@ -64,6 +64,10 @@ const ProjectStyles = styled(motion.div)`
       border-radius: 1rem;
       width: 100%;
       height: auto;
+      max-height: calc(var(--VH)*40);
+      @media (max-width: 500px){
+        max-height: calc(var(--VH)*30);
+      }
     }
     &-content{
       width: 100%;
