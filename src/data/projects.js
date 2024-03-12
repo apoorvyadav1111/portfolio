@@ -11,8 +11,18 @@ import dailyQuotesImg from "../assets/images/daily-quotes.png";
 import awsNoteImg from "../assets/images/aws-notes.png";
 // import courseGradingImg from "../assets/images/course-grading.png";
 import todoImg from "../assets/images/todo.png";
+import jotionImg from "../assets/images/jotion.png";
 
 export const projects = [
+    {
+        name:"Smart Note Taking App",
+        description:"A web app that helps users take notes and organize them.",
+        image: jotionImg,
+        tags:["React","TypeScript","Next.js","tailwind","Convex"],
+        type:"Full Stack Web App",
+        github:"https://github.com/apoorvyadav1111/Motion",
+        url:"https://https://takesmartnotes.vercel.app"
+    },
     {
         name:"Daily Qoutes",
         description:"A web app that provides daily quotes to the user in presentation mode or wallpaper mode.",
