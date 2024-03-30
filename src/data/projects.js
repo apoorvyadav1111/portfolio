@@ -21,7 +21,7 @@ export const projects = [
         tags:["React","TypeScript","Next.js","tailwind","Convex"],
         type:"Full Stack Web App",
         github:"https://github.com/apoorvyadav1111/Motion",
-        url:"https://https://takesmartnotes.vercel.app"
+        url:"https://takesmartnotes.vercel.app"
     },
     {
         name:"Daily Qoutes",
