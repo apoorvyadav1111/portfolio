@@ -12,8 +12,28 @@ import awsNoteImg from "../assets/images/aws-notes.png";
 // import courseGradingImg from "../assets/images/course-grading.png";
 import todoImg from "../assets/images/todo.png";
 import jotionImg from "../assets/images/jotion.png";
+import codespeedImg from "../assets/images/codespeed.png";
+import cyberSecurityQuizImg from "../assets/images/cybersecurityquiz.png";
 
 export const projects = [
+    {
+        name:"Cyber Security Quiz",
+        description:"A web app that helps K-12 students test their knowledge of cyber security concepts.",
+        image: cyberSecurityQuizImg,
+        tags:["React","TypeScript","Next.js","tailwind","framer-motion"],
+        type:"Fullstack Web App",
+        github:"https://github.com/apoorvyadav1111/cybersecurityquiz",
+        url:"https://cybersecurityquiz.vercel.app"
+    },
+    {
+        name:"Codespeed",
+        description:"A web app that helps users improve their typing speed and accuracy.",
+        image: codespeedImg,
+        tags:["React","TypeScript","Next.js","tailwind","framer-motion"],
+        type:"Fullstack Web App",
+        github:"https://github.com/apoorvyadav1111/codespeed",
+        url:"https://codespeed.vercel.app"
+    },
     {
         name:"Smart Note Taking App",
         description:"A web app that helps users take notes and organize them.",
