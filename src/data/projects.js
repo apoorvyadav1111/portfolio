@@ -14,6 +14,9 @@ import todoImg from "../assets/images/todo.png";
 import jotionImg from "../assets/images/jotion.png";
 import codespeedImg from "../assets/images/codespeed.png";
 import cyberSecurityQuizImg from "../assets/images/cybersecurityquiz.png";
+import redisServerImg from "../assets/images/redis.png";
+import bankImg from "../assets/images/bank.png";
+import sftpImg from "../assets/images/sftp.png";
 
 export const projects = [
     {
@@ -42,6 +45,33 @@ export const projects = [
         type:"Full Stack Web App",
         github:"https://github.com/apoorvyadav1111/Motion",
         url:"https://takesmartnotes.vercel.app"
+    },
+    {
+        name:"Redis Server",
+        description:"Redis server built using Python, asyncio and sockets.",
+        image: redisServerImg,
+        tags:["Python","Sockets", "Redis", "Asyncio","Multithreading"],
+        type:"Distributed Software Development",
+        github:"https://github.com/apoorvyadav1111/python-redis-server",
+        url:"https://github.com/apoorvyadav1111/python-redis-server"
+    },
+    {
+        name:"Simple SFTP Server",
+        description:"A simple SFTP server built using Python and sockets.",
+        image: sftpImg,
+        tags:["Python","Sockets", "OpenSSL"],
+        type:"Software Development",
+        github:"https://github.com/apoorvyadav1111/python-sftp-server",
+        url:"https://github.com/apoorvyadav1111/python-sftp-server"
+    },
+    {
+        name:"Encrypted Bank Server",
+        description:"A three tier architecture for a bank server with public key encryption and digital signatures.",
+        image: bankImg,
+        tags:["Python","Sockets", "OpenSSL", "Encryption", "Digital Signatures"],
+        type:"Software Development",
+        github:"https://github.com/apoorvyadav1111/python-encrypted-bank-server",
+        url:"https://github.com/apoorvyadav1111/python-encrypted-bank-server"
     },
     {
         name:"Daily Qoutes",

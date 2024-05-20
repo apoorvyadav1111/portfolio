@@ -10,7 +10,7 @@ export const skills = [
     },
     {
         name: "Web Frameworks",
-        skills: ["React", "Node.js", "Express", "Vue","Vuetify","Framer-Motion","GraphQL","Django Rest Framework", "JQuery", "Styled Components"],
+        skills: ["React", "Node.js", "Next.js", "Express", "Vue","Vuetify","Framer-Motion","GraphQL","Django Rest Framework", "JQuery", "Styled Components"],
     },
     {
         name: "Big Data",
