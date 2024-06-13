@@ -17,8 +17,37 @@ import cyberSecurityQuizImg from "../assets/images/cybersecurityquiz.png";
 import redisServerImg from "../assets/images/redis.png";
 import bankImg from "../assets/images/bank.png";
 import sftpImg from "../assets/images/sftp.png";
+import serverImg from "../assets/images/http-server.png";
 
 export const projects = [
+    {
+        name:"Http Server using Go (no frameworks)",
+        description:"A simple http server built from scratch using Go.",
+        image: serverImg,
+        tags:["Go","HTTP","Sockets"],
+        type:"Software Development",
+        github:"https://github.com/apoorvyadav1111/go-http-server",
+        url:"https://github.com/apoorvyadav1111/go-http-server"
+
+    },
+    {
+        name:"Redis Server",
+        description:"Redis server built using Python, asyncio and sockets.",
+        image: redisServerImg,
+        tags:["Python","Sockets", "Redis", "Asyncio","Multithreading"],
+        type:"Distributed Software Development",
+        github:"https://github.com/apoorvyadav1111/python-redis-server",
+        url:"https://github.com/apoorvyadav1111/python-redis-server"
+    },
+    {
+        name:"Encrypted Bank Server",
+        description:"A three tier architecture for a bank server with public key encryption and digital signatures.",
+        image: bankImg,
+        tags:["Python","Sockets", "OpenSSL", "Encryption", "Digital Signatures"],
+        type:"Software Development",
+        github:"https://github.com/apoorvyadav1111/python-encrypted-bank-server",
+        url:"https://github.com/apoorvyadav1111/python-encrypted-bank-server"
+    },
     {
         name:"Cyber Security Quiz",
         description:"A web app that helps K-12 students test their knowledge of cyber security concepts.",
@@ -47,15 +76,6 @@ export const projects = [
         url:"https://takesmartnotes.vercel.app"
     },
     {
-        name:"Redis Server",
-        description:"Redis server built using Python, asyncio and sockets.",
-        image: redisServerImg,
-        tags:["Python","Sockets", "Redis", "Asyncio","Multithreading"],
-        type:"Distributed Software Development",
-        github:"https://github.com/apoorvyadav1111/python-redis-server",
-        url:"https://github.com/apoorvyadav1111/python-redis-server"
-    },
-    {
         name:"Simple SFTP Server",
         description:"A simple SFTP server built using Python and sockets.",
         image: sftpImg,
@@ -63,15 +83,6 @@ export const projects = [
         type:"Software Development",
         github:"https://github.com/apoorvyadav1111/python-sftp-server",
         url:"https://github.com/apoorvyadav1111/python-sftp-server"
-    },
-    {
-        name:"Encrypted Bank Server",
-        description:"A three tier architecture for a bank server with public key encryption and digital signatures.",
-        image: bankImg,
-        tags:["Python","Sockets", "OpenSSL", "Encryption", "Digital Signatures"],
-        type:"Software Development",
-        github:"https://github.com/apoorvyadav1111/python-encrypted-bank-server",
-        url:"https://github.com/apoorvyadav1111/python-encrypted-bank-server"
     },
     {
         name:"Daily Qoutes",
