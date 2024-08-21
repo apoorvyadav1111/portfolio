@@ -331,12 +331,6 @@ const Home = () => {
                         target="_blank">
                         <FontAwesomeIcon icon={faChartArea} className="icon"/>
                     </motion.a>
-                    <motion.a 
-                        whileHover={{ scale: 1.2 , transition: { duration: 0.2 }}}
-                        href="mailto:ayadav7@binghamton.edu" 
-                        target="_blank">
-                        <FontAwesomeIcon icon={faEnvelope} className="icon"/>
-                    </motion.a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 export const workEx = [
     {
-        position: "Full Stack Developer",
+        position: "Software Development Engineer, Full Stack",
         company: "Binghamton University",
         companyLink: "https://www.binghamton.edu",
         time: "Jan 2023 - Present",
@@ -11,7 +11,7 @@ export const workEx = [
 
     },
     {
-        position: "Big Data Developer",
+        position: "Software Development Engineer, Data",
         company: "Tata Consultancy Services",
         companyLink: "https://tcs.com",
         time: "June 2019 - July 2022",
