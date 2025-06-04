@@ -50,7 +50,7 @@ const Cursor = () => {
             left:x,
         }}
     >
-        <FontAwesomeIcon icon={faCircle} size="1x" color="#03dac5"  />
+        <FontAwesomeIcon icon={faCircle} size="1x" color="#ffea00"  />
     </IconStyle>
     </>
 }

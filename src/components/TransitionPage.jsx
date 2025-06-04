@@ -16,7 +16,7 @@ const TransitionPageStyles = styled(motion.div)`
     .one{
       z-index: 30;
       height: 100%;
-      background: linear-gradient(90deg, #04DAC6, #075483);
+      background: linear-gradient(90deg, #ffaa00, #000000);
 
     }
     .two{

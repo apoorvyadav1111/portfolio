@@ -34,7 +34,7 @@ const ParticlesContainer = () => {
             fpsLimit: 120,
             background: {
                 color: {
-                    value: ''
+                    value: '#0f0f0f'
                 }
             },
             interactivity: {
@@ -69,14 +69,14 @@ const ParticlesContainer = () => {
                     }
                 },
                 color:{
-                    value: '#03dac5'
+                    value: '#ffea00'
                 },
                 links: {
-                    color: '#ffffff',
+                    color: '#ffea00',
                     distance: 150,
                     enable: true,
                     opacity: 0.1,
-                    width: 1
+                    width: 2
                 },
                 collisions: {
                     enable: true

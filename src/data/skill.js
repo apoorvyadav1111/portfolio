@@ -1,27 +1,36 @@
 
 export const skills = [
     {
-        name: "Languages",
-        skills: ["Python", "Java", "C", "JavaScript", "TypeScript", "HTML", "CSS", "SQL", "C#"],
+      "name": "Languages",
+      "skills": ["Python", "JavaScript", "TypeScript", "Go", "C#", "C++", "Java", "SQL", "HTML/CSS"]
     },
     {
-        name: "Databases",
-        skills: ["MySQL", "MongoDB", "Hive", "Redis", "Postgres"],
+      "name": "Web Frameworks & APIs",
+      "skills": ["Spring Boot", "Node.js", "Express", "React", "Next.js", "Vue", "GraphQL", ".Net", "ASP.Net", "Flask"]
     },
     {
-        name: "Web Frameworks",
-        skills: ["React", "Node.js", "Next.js", "Express", "Vue","Vuetify","Framer-Motion","GraphQL","Django Rest Framework", "JQuery", "Styled Components"],
+      "name": "Databases",
+      "skills": ["MySQL", "Postgres", "MongoDB", "Redis", "Hive"]
     },
     {
-        name: "Big Data",
-        skills: ["Apache Spark", "Apache Zeppelin", "HDFS", "Hue", "Sqoop", "SparkSQL"]
+      "name": "Big Data & Distributed Systems",
+      "skills": ["Apache Spark", "SparkSQL", "Apache Zeppelin", "HDFS", "Hue", "Sqoop", "Hadoop"]
     },
     {
-        name:"Data Visualization",
-        skills:["Tableau","Matplotlib", "Seaborn", "Pandas", "Highcharts"]
+      "name": "Cloud & DevOps",
+      "skills": ["AWS", "Docker", "Git", "Jenkins", "TeamCity", "MyService"]
     },
     {
-        name: "Frameworks",
-        skills:["Pytorch", "Tensorflow", "Numpy", "Git", "Jira", "Confluence", "MyService", "TeamCity", "Microsoft Office"]
+      "name": "Data Science & Machine Learning",
+      "skills": ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-learn", "Pytorch", "Tensorflow"]
     },
-];
+    {
+      "name": "Visualization & Monitoring",
+      "skills": ["Tableau", "Highcharts", "Kibana"]
+    },
+    {
+      "name": "Tools & Methodologies",
+      "skills": ["Agile", "Jira", "Confluence"]
+    }
+  ]
+  ;

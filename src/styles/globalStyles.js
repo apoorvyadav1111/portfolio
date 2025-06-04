@@ -11,9 +11,10 @@ const GlobalStyles = createGlobalStyle`
         --neon-green: #39ff14;
         --neon-blue: #03dac5;
         --white: #ffffff;
-        --neon-purple: #03dac5;
+        --neon-purple: #ffea00;
         --neon-pink: #D648D7;
         --purple: #bb86fc;
+        --neon-yellow: #ffea00;
     }
 
     *{

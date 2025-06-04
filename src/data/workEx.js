@@ -1,5 +1,13 @@
 export const workEx = [
     {
+        "position": "Software Development Engineer 2, Full Stack",
+        "company": "Asurion",
+        "companyLink": "https://www.asurion.com",
+        "time": "Sep 2024 - Present",
+        "address": "California, USA",
+        "work": "Led integrations with multiple client platforms by developing scalable APIs and services to support diverse ticketing and e-commerce systems.\nContributed to a secure, role-based authorization system, addressing feature requests and security enhancements.\nImproved system reliability and response times through on-call support, real-time debugging, and performance tuning across backend and frontend layers."
+    },
+    {
         position: "Software Development Engineer, Full Stack",
         company: "Binghamton University",
         companyLink: "https://www.binghamton.edu",
